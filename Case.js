@@ -1,4 +1,4 @@
-let day = "monday"
+let day = "Tuesday"
 
 switch (day) 
 {
