@@ -17,12 +17,17 @@ while (num <= 100)
 //bottles of beer
 let beer = 99;
 
-while (beer != 0)
+while (beer >= 1)
 {
-    console.log(`${beer} bottles of beer on the wall, ${beer} bottles of beer.Take one down and pass it around`)
+    console.log(`${beer} bottles of beer on the wall, ${beer} bottles of beer.Take one down and pass it around`);
     beer--
-    if (beer ==0)
+    if (beer ==1)
     {
-        console.log("No more bottles of beer on the wall, no more bottles of beer.Go to the store and buy some more, 99 bottles of beer on the wall")
+        console.log(`${beer} bottle of beer on the wall, ${beer} bottles of beer.Take one down and pass it around`);
+        beer--
     }
+    if (beer ==0)
+        {
+        console.log("No more bottles of beer on the wall, no more bottles of beer.Go to the store and buy some more, 99 bottles of beer on the wall")
+        }  
 }
