@@ -23,7 +23,7 @@ while (beer >= 1)
     beer--
     if (beer ==1)
     {
-        console.log(`${beer} bottle of beer on the wall, ${beer} bottles of beer.Take one down and pass it around`);
+        console.log(`${beer} bottle of beer on the wall, ${beer} bottle of beer.Take one down and pass it around`);
         beer--
     }
     if (beer ==0)
