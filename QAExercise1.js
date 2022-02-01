@@ -11,3 +11,5 @@ let model = "A5";
 console.log("My Favourite Car Is An: " + make + model);
 
 console.log('%c' + 'My Favourite Car Is An: ' + make + model, 'color:orange; font-family:fantasy; font-style: Bold; background-color: black;padding: 10px";');
+
+console.log('%c' + 'My Favourite Car Is An: ' + make + '%c' + ' ' + model, 'color:orange;', 'color:blue');
