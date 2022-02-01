@@ -1,30 +1,30 @@
-let day = 2
+let day = "monday"
 
 switch (day) 
 {
-  case 0:
-    console.log(`It's Sunday`);
+  case "monday":
+    console.log("It's monday");
     break;
-  case 1:
-    console.log(`It's Monday`);
+  case "Tuesday":
+    console.log("It's Tuesday");
     break;
-  case 2:
-    console.log(`It's Tuesday`);
+  case "Wednesday":
+    console.log("It's Wednesday");
     break;
-  case 3:
-    console.log(`It's Wednesday`);
+  case "Thursday":
+    console.log("It's Thursday");
     break;
-  case 4:
-    console.log(`It's Thursday`);
+  case "Friday":
+    console.log("It's Friday");
     break;
-  case 5:
-    console.log(`It's Friday`);
+  case "Saturday":
+    console.log("It's Saturday");
     break;
-case 6:
-    console.log(`It's Saturday`);
+  case "Sunday":
+    console.log("It's Sunday");
     break;
-    
+
   default:
-    console.log(`Excuse me?`);
+    console.log("Not A Valid Entry");
     break;
 }
